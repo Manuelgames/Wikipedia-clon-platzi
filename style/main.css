@@ -1,0 +1,28 @@
+/*SELECTOR UNIVERSAL*/
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: "Linux Libertine','Georgia','Times',serif";
+}
+
+header{
+    display: grid;
+    position: absolute;
+    width: 100%;
+    height: 150px;
+}
+.header-titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.titulo-container h1{
+    font-size: 3rem;
+}
+
